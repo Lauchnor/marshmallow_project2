@@ -12,3 +12,17 @@ y = data[1:, 1].astype(np.float32)
 params, params_cov = scipy.optimize.curve_fit(linear, x, y)
 slope = params[0]
 intercept = params[1]
+
+###Exercise 1
+print_equation(4, 10, 'in', 'sec')
+#Equation of the line: y = 4 in/sec x + 10 in
+
+
+###Exercise 2
+plt.figure()
+plt.scatter(x, y, label='Data')
+plt.plot(x, linear(x, slope, intercept),label='Linear Fit') #change this label if you have a non-linear fit
+plt.legend(loc='best')
+plt.xlabel("Weight(Grams)") #change the units as appropriate
+plt.ylabel("Distance in x direction (Millimeters)")  #change the units as appropriate
+plt.show()
