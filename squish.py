@@ -21,8 +21,8 @@ print_equation(4, 10, 'in', 'sec')
 ###Exercise 2
 plt.figure()
 plt.scatter(x, y, label='Data')
-plt.plot(x, linear(x, slope, intercept),label='Linear Fit') #change this label if you have a non-linear fit
+plt.plot(x, linear(x, slope, intercept),label='Linear Fit') 
 plt.legend(loc='best')
-plt.xlabel("Weight(Grams)") #change the units as appropriate
-plt.ylabel("Distance in x direction (Millimeters)")  #change the units as appropriate
+plt.xlabel("Weight(Grams)") 
+plt.ylabel("Distance in x direction (Millimeters)") 
 plt.show()
