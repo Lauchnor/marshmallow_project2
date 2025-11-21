@@ -14,8 +14,8 @@ slope = params[0]
 intercept = params[1]
 
 ###Exercise 1
-print_equation(4, 10, 'in', 'sec')
-#Equation of the line: y = 4 in/sec x + 10 in
+print_equation(slope, intercept, 'cm', 'g')
+#Equation of the line: y = -0.004121428572134348 cm/g x + 5.842500000399565 cm
 
 
 ###Exercise 2
